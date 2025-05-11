@@ -1,0 +1,24 @@
+{
+    "name": "denisok94/symfony-export",
+    "description": "Symfony export",
+    "keywords": ["symfony export"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denisok94",
+            "email": "denisok94@inbox.ru"
+        }
+    ],
+    "version": "0.0.1",
+    "require": {
+        "denisok94/symfony-export-xlsx": "*",
+        "denisok94/helper-composer": "^0.0.7",
+        "phpoffice/phpspreadsheet": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Denisok94\\SymfonyExportBundle\\": "src/"
+        }
+    }
+}
